@@ -3,7 +3,7 @@
 
 public class Magic8 {
 
-    //Generated random number, Using the Math.Floor method to obtain whole number. Static keyword is needed to save the value when utilising the main method.
+    //Generated random number, Static keyword is needed to save the value when utilising the main method.
   
     static int random = (int) (Math.random() * 8 + 1);
 
