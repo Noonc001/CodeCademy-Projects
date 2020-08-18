@@ -2,7 +2,7 @@
 
 public class Magic8 {
 
-    //Generated random number, Static keyword is used to save the value when deploying the random number in the main method.
+    //Generated random number, Static keyword is used to save the value when calling the random varibale in the main method.
   
     static int random = (int) (Math.random() * 8 + 1);
 
