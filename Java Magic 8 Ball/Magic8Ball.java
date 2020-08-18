@@ -17,7 +17,7 @@ public class Magic8 {
     System.out.println("Your fortune...");
 
    
-   //switch statement to print all possible outcomes. As there are a large number of outcomes a switch statement is best suited over if/else. 
+   //switch statement to print all possible outcomes. 
 
    switch(random){
 
