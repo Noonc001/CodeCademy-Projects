@@ -7,7 +7,7 @@ namespace ConsoleGame
 
    public new static void UpdatePosition(string keyPress, out int xCoord, out int yCoord) {
 
-    //intialise the corrds as variables
+    //intialise the corrds variables
      xCoord = 0;
      yCoord = 0;
 
@@ -30,7 +30,7 @@ namespace ConsoleGame
    }
 
 
-    public new static char UpdateCursor(string keyPressed){
+     public new static char UpdateCursor(string keyPressed){
 
       switch(keyPressed){ //switch statement to deal with each possible key press
         case "LeftArrow":
