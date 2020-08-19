@@ -30,8 +30,9 @@ namespace ConsoleGame
    }
 
 
+    //method to modify the character symbol depending on the key pressed by the user
      public new static char UpdateCursor(string keyPressed){
-
+     
       switch(keyPressed){ //switch statement to deal with each possible key press
         case "LeftArrow":
             return '<';
@@ -53,17 +54,17 @@ namespace ConsoleGame
     // will prevent the Current Coords from going off the screen
     public new static int KeepInBounds(int CurrentCoord, int MaxCoord){
       if(CurrentCoord < 0){ 
-        return 0;   //will keep coord from going off the left or top sides of screen
+        return 0;                                    //will keep coord from going off the left or top sides of screen
       } else if (CurrentCoord > MaxCoord){
-        return MaxCoord -1; //This will prevent Coord going off the screen right side or bottom
+        return MaxCoord -1;                        //This will prevent Coord going off the screen right side or bottom
       } else {
-        return CurrentCoord; // carry on playing if no sides are touched
+        return CurrentCoord;                     // carry on playing if no sides are touched
       }
     }
 
-    //boolean didscore method
+    //boolean didscore method 
     public new static bool DidScore(int xChar, int yChar, int xFruit, int yFruit){
-      if(xChar == xFruit && yChar == yFruit){   //checking if both sets of Coords Cross 
+      if(xChar == xFruit && yChar == yFruit){   //if statement used to check if both Xs axis and cross and the Y 
         return true;  
       } else {
         return false; //returns false if they do not
