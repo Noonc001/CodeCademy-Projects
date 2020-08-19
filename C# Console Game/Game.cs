@@ -7,7 +7,7 @@ namespace ConsoleGame
 
    public new static void UpdatePosition(string keyPress, out int xCoord, out int yCoord) {
 
-    //intialise the corrds variables
+    //intialise the coords variables
      xCoord = 0;
      yCoord = 0;
 
