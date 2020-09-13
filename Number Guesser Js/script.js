@@ -8,6 +8,8 @@ const generateTarget = () => {
   return randomNumber;
 }
 
+
+// .abs returns absolute number value
 const compareGuesses = (humanGuess, compGuess, secretNumber) => {
   const humanDiff = Math.abs(secretNumber - humanGuess);
   const computerDiff = Math.abs(secretNumber - compGuess);
