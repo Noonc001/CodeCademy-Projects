@@ -79,7 +79,6 @@ def higher_card(bet):
     return bet
   elif my_card < player_two:
     print("You lost " + str(bet))
-    return bet
   else: 
     print("You have had the same number card, its a tie")
     return 0
