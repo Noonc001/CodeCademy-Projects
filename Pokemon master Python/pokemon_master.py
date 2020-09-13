@@ -85,7 +85,7 @@ class Pokemon:
   #pokemon level increase method
   def gain_level(self):
     #set experience back to 0
-    self.exp = 0
+    self.xp = 0
     #increase level of Pokemon
     self.level += 1
     #setting health to max
