@@ -1,4 +1,6 @@
 #Pokemon class
+
+#self is a reference to the current instance of the class, used to access variables that belongs to the class.
 class Pokemon:
   def __init__(self, name, level, type):
     self.name = name
